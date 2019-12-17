@@ -13,6 +13,7 @@ if 'data' not in os.listdir('../'):
 
 
 def parseline(line):
+    line = line.decode()
     lhs, rel, rhs = line.split('\t')
     lhs = lhs.split(' ')
     rhs = rhs.split(' ')
@@ -75,7 +76,7 @@ synset2def = {}
 synset2concept = {}
 
 for i in dat:
-    synset, concept, definition = i[:-1].split('\t')
+    synset, concept, definition = i[:-1].decode().split('\t')
     synset2def.update({synset: definition})
     synset2concept.update({synset: concept})
 
