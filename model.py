@@ -2,7 +2,7 @@ import os
 import sys
 import time
 import copy
-import _pickle as cPickle
+import cPickle
 
 import numpy as np
 import scipy
