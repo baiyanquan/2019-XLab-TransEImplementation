@@ -1,6 +1,11 @@
 HELP.md
 .DS_Store
 
+# Python:
 /venv/
 .idea/
 __pycache__/
+*.py[cod]
+
+# Temp file
+/data/*.pkl
