@@ -1,4 +1,7 @@
 #! /usr/bin/python
+import sys
+sys.path.append('/root/TransE')
+
 from FB.FB_evaluation import RankingEval
 from WN_exp import *
 from WN.WN_evaluation import *

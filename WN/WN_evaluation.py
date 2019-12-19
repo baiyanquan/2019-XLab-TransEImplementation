@@ -1,5 +1,6 @@
 #! /usr/bin/python
 import sys
+sys.path.append('/root/TransE')
 from model import *
 
 
