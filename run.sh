@@ -2,7 +2,8 @@
 
 cd ~/TransE
 git pull origin Authority
-python ./WN/WN_parse.py
-python ./WN/WN_TransE.py
-python ./WN/WN_evaluation.py
-python ./WN/WN_test.py
+cd WN
+python ./WN_parse.py
+python ./WN_TransE.py
+python ./WN_evaluation.py
+python ./WN_test.py
