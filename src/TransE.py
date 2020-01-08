@@ -266,7 +266,7 @@ def train():
     transE = TransE(entityList, relationList, tripleList, margin=1, dim=100)
     print("TranE初始化")
     transE.initialize()
-    transE.transE(300)
+    transE.transE(3000)
 
     if switcher == 'lab':
         transE.writeRelationVector("../data/lab/relationVector.txt")
